@@ -1,0 +1,128 @@
+body {
+    font-family: Verdana;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation-bar__items {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+.navigation-bar__item {
+    display: inline-block;
+    padding: 5px;
+}
+
+.navigation-bar__item:hover {
+    display: inline-block;
+    background-color: #3F2F21;
+    border-radius: 8px;
+}
+
+
+
+.navigation-bar__item a {
+    text-decoration: none;
+    margin: 0 16px;
+    color: #F2B366; 
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.navigation-bar__item--contact a{
+    color: rgb(165, 52, 17);
+}
+
+.navigation-bar__item--contact:hover {
+    background-color: #F2B366;
+}
+.logo-image {
+    display: inline-block;    
+    vertical-align: middle;
+}
+
+.navigation-bar {
+    background-color: rgba(217, 188, 163, 0.1);
+}
+
+#introduction {
+    height: 600px;
+    background-image: url("img/sleepingCat.jpg");
+    background-size: cover;
+}
+
+.title {
+    color:#F2F2F2;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #A76E52;
+
+}
+
+h3 {
+    text-align: center;
+    color: #7C4933;
+}
+
+.columna {
+    display: inline-block;
+    margin: 0 32px;
+}
+
+.columna img {
+    border: 5px solid transparent;
+}
+
+.columna img:hover {
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+.fila {
+    text-align: center;
+    background-color: rgba(190,183,171,0.2);
+}
+
+
+.servicios-contenedor__cargo {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+footer {
+    text-align: center;
+    background-color: rgba(190,183,171,0.2);
+    font-family: Arial;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7A4831;
+    font-weight: bold;
+}
+
+
+
